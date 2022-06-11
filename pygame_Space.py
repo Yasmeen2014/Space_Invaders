@@ -18,7 +18,7 @@ pg.display.set_caption("spaceInvaders")
 icon = pg.image.load("ufo.png")
 pg.display.set_icon(icon)
 
-player = pg.image.load("astronomy.png ")
+player = pg.image.load("astronomy.png")
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -31,7 +31,7 @@ enemyY_change = []
 num_of_enemy = 10
 
 for i in range(num_of_enemy):
-    enemy_img.append(pg.image.load("alien.png "))  
+    enemy_img.append(pg.image.load("alien.png"))  
     enemyX.append(rd.randint(0,735 ))
     enemyY.append(rd.randint(50,150 ))
     enemyX_change.append(4)
